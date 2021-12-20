@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+ 
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../index.html">
+</head>
+<body>
+    <main>
+    <div id="hamburguer" onclick="botaomenu()">
+        <img src="./Imagens/9-97147_vetor-mancha-de-tinta-png.png" height="70" width="70">
+    </div>
+    <div id="menu1">
+        <nav class="menu">
+            <img src="./Imagens/9-97147_vetor-mancha-de-tinta-png.png" height="70" width="70" onclick="botaomenu2()">
+            <ul>
+                
+                <li><a href="Paginas/monstros da africa.html">Monstros Africa</a></li>
+                <li><a href="Paginas/monstros da america.html">Monstros America</a></li>
+                <li><a href="Paginas/monstros da oceania.html">Monstros Oceania</a></li>
+                <li><a href="Paginas/monstros da europa.html">Monstros Europa</a></li>
+            </ul>    
+               
+        </nav>
+    </div>
+</main>
+
+<div class="container4">
+    <div>Como funciona a Montagem da sua estampa</div>
+   
+    <div>Agnes Gru</div>
+    
+<script>
+    document.getElementById ("hamburguer").style.display ="block"
+            document.getElementById ("menu1").style.display ="none"
+            
+            
+            
+                //Botao x - troca divs
+                    function botaomenu() {
+                        document.getElementById ("hamburguer").style.display ="none"
+                        document.getElementById ("menu1").style.display ="block"
+                    }
+            
+                    //Botao x - troca divs
+                    function botaomenu2() {
+                        
+                        document.getElementById ("menu1").style.display ="none"
+                        document.getElementById ("hamburguer").style.display ="block"
+                    }
+</script>
+</body>
+</html>
