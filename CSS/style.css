@@ -74,3 +74,36 @@ main{
     justify-content: center;
     border-radius: 10px;
 } 
+.menu {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    
+}  
+
+.menu ul{ 
+    width: 700px;
+    height: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.menu a{
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 17px 30px;
+}
+
+.menu a:hover{
+    border-radius: 30px;
+    background-color: rgb(107, 11, 24);
+    height: 100px;
+
+}
